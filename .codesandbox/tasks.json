@@ -1,0 +1,528 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "exercise": {
+      "name": "exercise",
+      "command": "npm run exercise",
+      "runAtStart": false
+    },
+    "e": {
+      "name": "e",
+      "command": "npm run e",
+      "runAtStart": false
+    },
+    "solution": {
+      "name": "solution",
+      "command": "npm run solution",
+      "runAtStart": false
+    },
+    "s": {
+      "name": "s",
+      "command": "npm run s",
+      "runAtStart": false
+    },
+    "ci": {
+      "name": "ci",
+      "command": "npm run ci",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "update-snapshots": {
+      "name": "update-snapshots",
+      "command": "npm run update-snapshots",
+      "runAtStart": false
+    },
+    "e-01": {
+      "name": "e-01",
+      "command": "npm run e-01",
+      "runAtStart": false
+    },
+    "s-01": {
+      "name": "s-01",
+      "command": "npm run s-01",
+      "runAtStart": false
+    },
+    "e-02": {
+      "name": "e-02",
+      "command": "npm run e-02",
+      "runAtStart": false
+    },
+    "s-02": {
+      "name": "s-02",
+      "command": "npm run s-02",
+      "runAtStart": false
+    },
+    "e-03": {
+      "name": "e-03",
+      "command": "npm run e-03",
+      "runAtStart": false
+    },
+    "s-03": {
+      "name": "s-03",
+      "command": "npm run s-03",
+      "runAtStart": false
+    },
+    "e-04": {
+      "name": "e-04",
+      "command": "npm run e-04",
+      "runAtStart": false
+    },
+    "s-04": {
+      "name": "s-04",
+      "command": "npm run s-04",
+      "runAtStart": false
+    },
+    "e-05": {
+      "name": "e-05",
+      "command": "npm run e-05",
+      "runAtStart": false
+    },
+    "s-05": {
+      "name": "s-05",
+      "command": "npm run s-05",
+      "runAtStart": false
+    },
+    "e-06": {
+      "name": "e-06",
+      "command": "npm run e-06",
+      "runAtStart": false
+    },
+    "s-06": {
+      "name": "s-06",
+      "command": "npm run s-06",
+      "runAtStart": false
+    },
+    "e-07": {
+      "name": "e-07",
+      "command": "npm run e-07",
+      "runAtStart": false
+    },
+    "s-07": {
+      "name": "s-07",
+      "command": "npm run s-07",
+      "runAtStart": false
+    },
+    "e-08": {
+      "name": "e-08",
+      "command": "npm run e-08",
+      "runAtStart": false
+    },
+    "s-08": {
+      "name": "s-08",
+      "command": "npm run s-08",
+      "runAtStart": false
+    },
+    "e-09": {
+      "name": "e-09",
+      "command": "npm run e-09",
+      "runAtStart": false
+    },
+    "s-09": {
+      "name": "s-09",
+      "command": "npm run s-09",
+      "runAtStart": false
+    },
+    "e-10": {
+      "name": "e-10",
+      "command": "npm run e-10",
+      "runAtStart": false
+    },
+    "s-10": {
+      "name": "s-10",
+      "command": "npm run s-10",
+      "runAtStart": false
+    },
+    "e-11": {
+      "name": "e-11",
+      "command": "npm run e-11",
+      "runAtStart": false
+    },
+    "s-11": {
+      "name": "s-11",
+      "command": "npm run s-11",
+      "runAtStart": false
+    },
+    "e-12": {
+      "name": "e-12",
+      "command": "npm run e-12",
+      "runAtStart": false
+    },
+    "s-12": {
+      "name": "s-12",
+      "command": "npm run s-12",
+      "runAtStart": false
+    },
+    "e-13": {
+      "name": "e-13",
+      "command": "npm run e-13",
+      "runAtStart": false
+    },
+    "s-13": {
+      "name": "s-13",
+      "command": "npm run s-13",
+      "runAtStart": false
+    },
+    "e-14": {
+      "name": "e-14",
+      "command": "npm run e-14",
+      "runAtStart": false
+    },
+    "s-14": {
+      "name": "s-14",
+      "command": "npm run s-14",
+      "runAtStart": false
+    },
+    "e-14.7": {
+      "name": "e-14.7",
+      "command": "npm run e-14.7",
+      "runAtStart": false
+    },
+    "s-14.7": {
+      "name": "s-14.7",
+      "command": "npm run s-14.7",
+      "runAtStart": false
+    },
+    "e-15": {
+      "name": "e-15",
+      "command": "npm run e-15",
+      "runAtStart": false
+    },
+    "s-15": {
+      "name": "s-15",
+      "command": "npm run s-15",
+      "runAtStart": false
+    },
+    "e-16": {
+      "name": "e-16",
+      "command": "npm run e-16",
+      "runAtStart": false
+    },
+    "s-16": {
+      "name": "s-16",
+      "command": "npm run s-16",
+      "runAtStart": false
+    },
+    "e-17": {
+      "name": "e-17",
+      "command": "npm run e-17",
+      "runAtStart": false
+    },
+    "s-17": {
+      "name": "s-17",
+      "command": "npm run s-17",
+      "runAtStart": false
+    },
+    "e-17.5": {
+      "name": "e-17.5",
+      "command": "npm run e-17.5",
+      "runAtStart": false
+    },
+    "s-17.5": {
+      "name": "s-17.5",
+      "command": "npm run s-17.5",
+      "runAtStart": false
+    },
+    "e-18": {
+      "name": "e-18",
+      "command": "npm run e-18",
+      "runAtStart": false
+    },
+    "s-18": {
+      "name": "s-18",
+      "command": "npm run s-18",
+      "runAtStart": false
+    },
+    "e-19": {
+      "name": "e-19",
+      "command": "npm run e-19",
+      "runAtStart": false
+    },
+    "s-19": {
+      "name": "s-19",
+      "command": "npm run s-19",
+      "runAtStart": false
+    },
+    "e-20": {
+      "name": "e-20",
+      "command": "npm run e-20",
+      "runAtStart": false
+    },
+    "s-20": {
+      "name": "s-20",
+      "command": "npm run s-20",
+      "runAtStart": false
+    },
+    "e-20.5": {
+      "name": "e-20.5",
+      "command": "npm run e-20.5",
+      "runAtStart": false
+    },
+    "s-20.5": {
+      "name": "s-20.5",
+      "command": "npm run s-20.5",
+      "runAtStart": false
+    },
+    "e-20.6": {
+      "name": "e-20.6",
+      "command": "npm run e-20.6",
+      "runAtStart": false
+    },
+    "s-20.6": {
+      "name": "s-20.6",
+      "command": "npm run s-20.6",
+      "runAtStart": false
+    },
+    "e-20.7": {
+      "name": "e-20.7",
+      "command": "npm run e-20.7",
+      "runAtStart": false
+    },
+    "s-20.7": {
+      "name": "s-20.7",
+      "command": "npm run s-20.7",
+      "runAtStart": false
+    },
+    "e-21": {
+      "name": "e-21",
+      "command": "npm run e-21",
+      "runAtStart": false
+    },
+    "s-21": {
+      "name": "s-21",
+      "command": "npm run s-21",
+      "runAtStart": false
+    },
+    "e-22": {
+      "name": "e-22",
+      "command": "npm run e-22",
+      "runAtStart": false
+    },
+    "s-22": {
+      "name": "s-22",
+      "command": "npm run s-22",
+      "runAtStart": false
+    },
+    "e-23": {
+      "name": "e-23",
+      "command": "npm run e-23",
+      "runAtStart": false
+    },
+    "s-23": {
+      "name": "s-23",
+      "command": "npm run s-23",
+      "runAtStart": false
+    },
+    "e-24": {
+      "name": "e-24",
+      "command": "npm run e-24",
+      "runAtStart": false
+    },
+    "s-24": {
+      "name": "s-24",
+      "command": "npm run s-24",
+      "runAtStart": false
+    },
+    "e-25": {
+      "name": "e-25",
+      "command": "npm run e-25",
+      "runAtStart": false
+    },
+    "s-25": {
+      "name": "s-25",
+      "command": "npm run s-25",
+      "runAtStart": false
+    },
+    "e-26": {
+      "name": "e-26",
+      "command": "npm run e-26",
+      "runAtStart": false
+    },
+    "s-26": {
+      "name": "s-26",
+      "command": "npm run s-26",
+      "runAtStart": false
+    },
+    "e-27": {
+      "name": "e-27",
+      "command": "npm run e-27",
+      "runAtStart": false
+    },
+    "s-27": {
+      "name": "s-27",
+      "command": "npm run s-27",
+      "runAtStart": false
+    },
+    "e-28": {
+      "name": "e-28",
+      "command": "npm run e-28",
+      "runAtStart": false
+    },
+    "s-28": {
+      "name": "s-28",
+      "command": "npm run s-28",
+      "runAtStart": false
+    },
+    "e-29": {
+      "name": "e-29",
+      "command": "npm run e-29",
+      "runAtStart": false
+    },
+    "s-29": {
+      "name": "s-29",
+      "command": "npm run s-29",
+      "runAtStart": false
+    },
+    "e-29.5": {
+      "name": "e-29.5",
+      "command": "npm run e-29.5",
+      "runAtStart": false
+    },
+    "s-29.5": {
+      "name": "s-29.5",
+      "command": "npm run s-29.5",
+      "runAtStart": false
+    },
+    "e-30": {
+      "name": "e-30",
+      "command": "npm run e-30",
+      "runAtStart": false
+    },
+    "s-30": {
+      "name": "s-30",
+      "command": "npm run s-30",
+      "runAtStart": false
+    },
+    "e-32": {
+      "name": "e-32",
+      "command": "npm run e-32",
+      "runAtStart": false
+    },
+    "s-32": {
+      "name": "s-32",
+      "command": "npm run s-32",
+      "runAtStart": false
+    },
+    "e-33": {
+      "name": "e-33",
+      "command": "npm run e-33",
+      "runAtStart": false
+    },
+    "s-33": {
+      "name": "s-33",
+      "command": "npm run s-33",
+      "runAtStart": false
+    },
+    "e-34": {
+      "name": "e-34",
+      "command": "npm run e-34",
+      "runAtStart": false
+    },
+    "s-34": {
+      "name": "s-34",
+      "command": "npm run s-34",
+      "runAtStart": false
+    },
+    "e-29.2": {
+      "name": "e-29.2",
+      "command": "npm run e-29.2",
+      "runAtStart": false
+    },
+    "s-29.2": {
+      "name": "s-29.2",
+      "command": "npm run s-29.2",
+      "runAtStart": false
+    },
+    "e-00": {
+      "name": "e-00",
+      "command": "npm run e-00",
+      "runAtStart": false
+    },
+    "s-00": {
+      "name": "s-00",
+      "command": "npm run s-00",
+      "runAtStart": false
+    },
+    "e-04.5": {
+      "name": "e-04.5",
+      "command": "npm run e-04.5",
+      "runAtStart": false
+    },
+    "s-04.5": {
+      "name": "s-04.5",
+      "command": "npm run s-04.5",
+      "runAtStart": false
+    },
+    "e-06.5": {
+      "name": "e-06.5",
+      "command": "npm run e-06.5",
+      "runAtStart": false
+    },
+    "s-06.5": {
+      "name": "s-06.5",
+      "command": "npm run s-06.5",
+      "runAtStart": false
+    },
+    "e-11.1": {
+      "name": "e-11.1",
+      "command": "npm run e-11.1",
+      "runAtStart": false
+    },
+    "s-11.1": {
+      "name": "s-11.1",
+      "command": "npm run s-11.1",
+      "runAtStart": false
+    },
+    "e-11.2": {
+      "name": "e-11.2",
+      "command": "npm run e-11.2",
+      "runAtStart": false
+    },
+    "s-11.2": {
+      "name": "s-11.2",
+      "command": "npm run s-11.2",
+      "runAtStart": false
+    },
+    "e-14.5": {
+      "name": "e-14.5",
+      "command": "npm run e-14.5",
+      "runAtStart": false
+    },
+    "s-14.5": {
+      "name": "s-14.5",
+      "command": "npm run s-14.5",
+      "runAtStart": false
+    },
+    "e-14.6": {
+      "name": "e-14.6",
+      "command": "npm run e-14.6",
+      "runAtStart": false
+    },
+    "s-14.6": {
+      "name": "s-14.6",
+      "command": "npm run s-14.6",
+      "runAtStart": false
+    },
+    "e-16.5": {
+      "name": "e-16.5",
+      "command": "npm run e-16.5",
+      "runAtStart": false
+    },
+    "s-16.5": {
+      "name": "s-16.5",
+      "command": "npm run s-16.5",
+      "runAtStart": false
+    }
+  }
+}
